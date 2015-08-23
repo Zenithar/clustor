@@ -9,5 +9,6 @@ Log notice stdout
 
 CircuitBuildTimeout 5
 KeepalivePeriod 60
-NewCircuitPeriod 20
+NewCircuitPeriod 10
+MaxCircuitDirtiness 60
 NumEntryGuards 8
