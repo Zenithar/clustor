@@ -1,0 +1,13 @@
+RunAsDaemon 0
+
+SocksPort 0.0.0.0:9050
+SocksPolicy accept *
+
+ExitPolicy reject *:*
+
+Log notice stdout
+
+CircuitBuildTimeout 5
+KeepalivePeriod 60
+NewCircuitPeriod 20
+NumEntryGuards 8
